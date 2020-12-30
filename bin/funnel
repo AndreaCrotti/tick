@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+clojure -Sdeps '{:deps {lambdaisland/funnel {:mvn/version "0.1.42"}}}' -m lambdaisland.funnel $@

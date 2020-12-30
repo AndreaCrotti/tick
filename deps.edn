@@ -29,6 +29,9 @@
                           lambdaisland/kaocha-junit-xml {:mvn/version "0.0.76"}}
 
              :extra-paths ["test"]}
+  :test-node-kaocha {:extra-paths ["test"]
+                     :extra-deps {lambdaisland/kaocha-cljs2 {:mvn/version "0.0.35"}}}
+
   :test-chrome {:extra-paths ["test" "cljs-test-runner-out/gen"]
                 :extra-deps  {olical/cljs-test-runner   {:mvn/version "3.7.0" :exclusions [org.clojure/clojurescript]}
                               org.clojure/clojurescript {:mvn/version "1.10.764"}}

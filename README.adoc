@@ -86,9 +86,9 @@ For running the ClojureScript tests you will need the following npm dependencies
 
 ----
 sudo npm install karma-cli -g
-npm install karma --save-dev
-npm install karma-chrome-launcher
-npm install karma-cljs-test
+sudo npm install karma -g
+sudo npm install karma-chrome-launcher -g
+sudo npm install karma-cljs-test -g
 ----
 
 === Release
